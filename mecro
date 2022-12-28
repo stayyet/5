@@ -1,0 +1,20 @@
+pallet::constant
+功能：定义常量
+
+
+frame_support
+标记pallet模块
+
+
+pallet::config
+定义配置
+
+pallet::error
+定义错误
+#[pallet::error]
+pub enum error<T>{
+  one,
+  two,
+  three,
+  }
+  

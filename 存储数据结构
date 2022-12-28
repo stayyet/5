@@ -1,0 +1,22 @@
+BoundVec
+更安全的VEC替代
+
+StorageValue
+单值类型的常用API：
+增：：：<T>::put()
+::<T>::get()  获取当前链上的存储值
+更新值 mutate(|v|v+1);  前面是存储值，后面是更新值
+kill删除值
+
+返回安全操作
+check_add判断溢出
+saturating_add 错误时返回饱和值
+
+简单映射类型storage_map
+用来保存键值对
+常用API：
+insert 插入元素get 获取元素
+
+
+双值映射类型StorageDoubleMap
+功能 可以快速删除单个KEY对应的任意记录
